@@ -1,0 +1,29 @@
+Full README at:
+http://my.opera.com/Blazeix/blog/vimperator-for-opera
+
+Thanks Blazeix for your work on this.  Since vimperopera appears abandonned on your site, and you don't appear to be monitoring the comment thread on it anymore, I'm putting it up on GitHub so the community can continue developing it.  If you are reading this and want to host your work, I'm more than happy to pass it back to you.  Just didn't want such good work stagnating, especially when the only alternative (at least that I can find) is Vopera, made by someone who now says he hates Opera, claims to be banned from the Opera developer forums, and won't be updating Vopera anymore.
+
+Installation
+
+To make Opera 9.51 behave like Vim, and by extension Vimperator, follow these instructions:
+
+1. Download the attached file 'vimperopera.ini' (see bottom of post) and place it in your profile under the 'keyboard' directory. Under Linux, this directory is under:
+
+      ~/.opera/keyboard
+
+   For Windows, look under
+
+      C:\Documents and Settings\user\Application Data\Opera\Opera\profile\keyboard
+
+2. Open up your preferences window and navigate to Advanced->Shortcuts->Keyboard Setup and choose 'vimperopera'. Press O.K.
+
+3. (Optional) To get a more authentic Vim[perator] experience, you may want to hide all of your toolbars except for the tab bar and address bar. Do this from the Tools->Appearance->Toolbars tab, and press Shift+m to toggle the menu bar on/off. I put my address bar at the bottom of the window, and kept the tab bar at the top. I hid all the other toolbars.
+
+Using Vimperopera
+
+Now, vim and vimperator are modal programs and Opera, well, not so much. However, I feel very comfortable using the vimperopera keybindings and can switch back and forth between vimperator and vimperopera with ease. Almost all of your trusty vimperator keybindings are available (At least, the ones that I could find mentioned in the Vimperator documentation, which seems to be lacking). All the shortcuts I've grown attached to such as gh (go to homepage), gH (go to homepage in new tab), o, O, t, T, etc. are all working. See the list below for the keybindings.
+
+As I mentioned earlier, hit-a-hint spacial navigation, which I can't live without, has been emulated using Javascript bound to the 'f' key for basic hints and ';' for extended hints.
+
+ * Basic hints ('f') - Displays numbers next to each link. Type the number of link and press enter to go to that link. If the number you type has only one possible hint, that hint will be automatically chosen for you.
+ * Extended hint mode (';') - Displays numbers next to each link, and allows you to open multiple links at a time. Type in the numbers of the links you want to follow, separated by a comma, and press enter when you are done. Those links will open in new tabs.
